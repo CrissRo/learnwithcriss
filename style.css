@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+
+
+@keyframes ver {
+0%{color: black;}
+100%{color: white;}
+}
+
+@keyframes animation {
+0%{top:-100px;}
+100%{top:0px;}
+}
+
+@keyframes div{
+100%{background-color: rgb(206, 206, 206);}
+}
+
+*{font-family: 'Rhodium Libre', serif;}
+
+.h1 {
+    position: relative;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 15px;
+
+    text-shadow: 1px 1px 1px rgb(39, 36, 36) ;
+
+    padding: 7px;
+    margin: 20px;
+
+
+    color: black;
+    background-color: silver;
+
+    font-family: 'Orelega One', cursive;
+    font-size: 50px;
+    text-align: center;
+
+    animation-name: animation;
+    animation-duration: 3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 20px;
+}
+
+p{ padding-left:25px;}
+
+[href]:hover {
+              font-style: italic;  
+
+}
+
+.div{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 98%;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    padding: 5px 5px 5px 5px;
+    position: sticky;
+    top: 4px;
+}
+
+.div:hover{
+    animation-name: div;
+    animation-fill-mode: forwards;
+    animation-duration: 30ms;
+}
+
+.ver{
+    animation-name: ver ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.div2:hover{
+    animation-name: div;
+    animation-fill-mode: forwards;
+    animation-duration: 30ms;
+}
+
+.div2{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    margin-left: 96%;
+    margin-bottom: 2px;
+    margin-right: 6px;
+    padding: 5px 5px 5px 5px;
+    position: sticky;
+    top: 4px;
+}

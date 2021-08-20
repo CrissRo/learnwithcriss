@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learn with Criss</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Criss">
+    <meta name="description" content="An HTML tutorial">
+    <meta name="keywords" content="HTML,tutorial,website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="LWC logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: rgb(161, 161, 161);">
+    <span class="ver"style="position: absolute;top: 1px; font-size:15px;font-family: monospace;">v 1.2</span>
+    <h1 id="top" class="h1">Html tutorial</h1>
+
+    <nav style="background-color: rgb(190, 190, 190);border-width: 4px;border-style: solid; border-color: white;border-radius: 10px 10px 0px 0px">
+        <h3 style="margin-left: 255px;"> <a href="index.html">Introductions</a> |
+            <a href="page2.html" style="color:red;"><i>Basics</i></a> |
+            <a href="page3.html"> Formating text</a> |
+            <a href="page4.html"> Links and iframes</a> |
+            <a href="page5.html"> Images and videos</a> |
+            <a href="page6.html"> Lists</a> 
+            <br>
+            <section style="padding-left: 275px;">
+            <a href="page7.html"> Tables</a> |
+            <a href="page8.html" > Meta tags</a> |
+            <a href="page9.html"> More </a></h3>
+        </a>
+    </nav>
+
+    <main style="background-color: rgb(131, 131, 131); border-style: solid; border-color: white; border-width: 2px;">
+        <a href="#top">
+            <div class="div">
+                ↑
+            </div>
+        </a>
+        <a href="#bottom">
+            <span class="div2"> 
+                ↓
+            </span> 
+        </a>
+
+        <h2>Basics</h2>
+
+
+        <fieldset
+            style="background-color: rgb(114, 114, 114);border-style: solid; border-color: white; border-width: 2px; margin: 10px 300px 10px 300px;">
+            <legend>
+                <h3>HTML structure</h3>
+            </legend>
+            <code><p>< !DOCTYPE HTML><p>
+    <p>< html></p>
+    <p>< head></p>
+    <p> < title>Name of the website< /title> </p>
+    <p>< /head></p>
+    <p>< body></p>
+    <br>
+    <p>< !--Comment--></p>
+    <br>
+    <p>< /body></p>
+    <p>< /html></p></code>
+        </fieldset>
+        <h3><u>Basic Tags:</u></h3>
+        <h4><code>< !DOCTYPE ></code></h4>
+       <p> DOCTYPE tag is used to tell the browser what version of html we use, for exemple if we use HTML 5 we write:
+       </p> <p><code>< !DOCTYPE HTML></code>
+        <p>
+            This usually is the first tag in our document.</p>
+        <h4><code>< html> < /html></code></h4>
+       <p> Html tag is the container for all the others tags (<code>< !DOCTYPE HTML></code> is an exception).</p>
+        <h4><code>< head> < /head></code></h4>
+        <p> Head tag is used between html tag and body tag, in head tag we use other tags how don't change the aspect of the
+        website.</p>
+        <h4><code>< title> < /title></code></h4>
+        <p> Title tag is used inside the head tag and he gives the name of the website, this name is showed in the browser
+        title bar.</p>
+        <h4><code>< body> < /body></code></h4>
+        <p> Body tag is used after head tag. In body tag we use other tags as we can change the aspect of the website but we
+        can also write text and this will showed in the website page.</p>
+        <h4><code>< !-- --></code></h4>
+        <p> This tag is named comment tag and in this tag we can write notes about the code we write and this notes will not
+        show in the website page. </p>
+        <h3><u>Elements</u></h3>
+        <p>In HTML we call an element everything from the start tag to the end tag.</p>
+        <p>Exemple:<code>< tag_name> Text < /tag_name></code></p>
+        <p>An element is formed from <b>start tag</b>, <b>content</b> and <b>end tag</b>.</p>
+        <p>Exemple:<code>< tag_name></code> is the start tag, <code>"Text"</code> is the content and
+            <code>< /tag_name></code> is the end tag.
+        </p>
+        <p> <i>Some tags may not have an end tag or content</i> </p>
+        <h3><u>Attributes</u></h3>
+        <p>In HTML attributes are additional informations for an element.</p>
+        <p>Attributes are always used in the start tag.</p>
+        <p>Exemple:<code>< tag_name attribute_name="value"> Text < /tag_name></code></p>
+        <p>Exemple2:<code>< p title="a nice guy"> John < /p></code></p>
+        <p> Title attribute add extra information about one element, in this case if we will put the cursor on word <span
+            title="a nice guy">"John"</span> we will see the attribut title, in this case "a nice guy". </p>
+        <p>Some more exemples of attributes are:herf,stye,scr,etc...</p>
+        <p>We will meet thats attributes again soon in the tutorial.</p>
+        <span id="bottom">&nbsp;</span>
+    </main>
+
+    <footer style="background-color: rgb(190, 190, 190);border-width: 5px; border-color: white; border-style:solid;border-radius: 0px 0px 10px 10px;">
+        <p style="margin-left: 275px;">
+            <a href="index.html">
+                <-Back</a> |
+                    Author:Criss |
+                    Email: learnwithcriss@gmail.com |
+                    My discord: Criss#6275 |
+                    <a href="page3.html">Next-></a>
+        </p>
+    </footer>
+</body>
+
+</html>

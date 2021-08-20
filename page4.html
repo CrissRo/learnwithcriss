@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Learn with Criss</title>  
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Criss">
+    <meta name="description" content="An HTML tutorial">
+    <meta name="keywords" content="HTML,tutorial,website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="LWC logo.png">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="background-color: rgb(161, 161, 161);">
+        <span class="ver" style="position: absolute;top: 1px; font-size:15px;font-family: monospace;">v 1.2</span>
+        <h1 id="top" class="h1">Html tutorial</h1>
+    
+        <nav style="background-color: rgb(190, 190, 190);border-width: 4px;border-style: solid; border-color: white;border-radius: 10px 10px 0px 0px;">
+            <h3 style="margin-left: 255px;"><a href="index.html">Introductions</a> |
+            <a href="page2.html"> Basics</a> |
+            <a href="page3.html"> Formating text</a> |
+            <a href="page4.html" style="color: red;"> <i>Links and iframes</i></a> |
+            <a href="page5.html"> Images and videos</a> |
+            <a href="page6.html"> Lists</a> 
+            <br>
+            <section style="padding-left: 275px;">
+            <a href="page7.html"> Tables</a> |
+            <a href="page8.html" > Meta tags</a> |
+            <a href="page9.html"> More </a></h3>
+        </nav>
+        
+        <main style="background-color: rgb(131, 131, 131); border-style: solid; border-color: white; border-width: 2px;">
+            <a href="#top">
+                <div class="div">
+                    ↑
+                </div>
+            </a>
+            <a href="#bottom">
+                <span class="div2"> 
+                    ↓
+                </span> 
+            </a>
+    
+    <h2 id="links">Links</h2>
+    <h3><u>Basic links</u></h3>
+    <h4><code>< a href=" "> < a/></code></h4>
+    <p>This tag is used to add links on your website.</p> 
+<p>    Between open tag and close tag you can write any message you want and this text will be transformed in a link. </p>
+<p>    For this tag will need href attribute. </p>
+<p>    Exemple:<code>< a href="url_link">Text< /a></code></p>
+
+<p>Exemple 2:</p>
+<p><a href="https://www.google.com/">This is a link to Google</a></p>
+<p><code>< a href="https://www.google.com/">This is a link to Google< /a></code></p>
+<h3><u>More about links</u></h3>
+<h4>Target attribute</h4>
+<p>Exemple:</p>
+<p><code> < a href="url link" target="value">Text< /a></code></p>
+<p>The "value" can be change with:</p> 
+
+<ol>
+         <li><code>_blank</code></li>
+         <p>This value will open the linked document in a new window.</p>
+          <a href="https://www.google.com/" target="_blank" >Exemple link_Google</a>
+
+         <li><code>_self</code></li>
+         <p>This value will open the linked document on the same window (is default value). </p>
+         <a href="https://www.google.com/" target="_self" >Exemple link_Google</a>
+         <li><code>_top</code></li>
+         
+</ol>
+<h3><u>Id attribute</u></h3>
+<p> The id attribute is used in links to redirectionate the user to a section from your website when the link is clicked.</p> 
+<p>To use an id attribute in a link need an id of an element. </p>
+<p> To give an id to an element you need do that:</p>
+
+<p><code>< h1 id= "element_id">Text< /h1></code> </p>
+<p>Now the Text from h1 tag has the element id. To use this id in a link you need to do that:</p>
+<p><code>  < a href="#element_id"> Go to the element < /a></code> </p>
+<p>Exemple:</p>
+<p><a href="#links"> Go to the top of the chapter </a></p>
+
+<h4>Iframes</h4>
+<p>Iframe tag is used to display a web page within a web page.</p>
+<p>Exemple:</p>
+<p><code>< iframe src="">< /iframe></code></p>
+<iframe src="page4.html" width="800px" height="400px"></iframe>
+<p>Iframe tags can be sed with height and width attributes</p>
+<span id="bottom">&nbsp;</span>
+</main>
+
+<footer style="background-color: rgb(190, 190, 190);border-width: 5px; border-color: white; border-style:solid;border-radius: 0px 0px 10px 10px;"> 
+    <p style="margin-left: 275px;">
+        <a href="page3.html"><-Back</a> |
+    Author:Criss |
+    Email: learnwithcriss@gmail.com |
+    My discord: Criss#6275 |
+    <a href="page5.html">Next-></a></p>
+    </footer>
+    
+
+    
+    </body>
+    </html>
